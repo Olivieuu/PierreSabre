@@ -35,6 +35,7 @@ public class HistoireTP4 {
 		
 //		SCENARIO DE YAKUZA
 		Yakuza yaku = new Yakuza("Yaku le noir","whisky",30);
+		yaku.clan = "Warsong";
 		
 		yaku.direBonjour();
 		yaku.extorquer(marco);
@@ -44,6 +45,14 @@ public class HistoireTP4 {
 		
 		roro.direBonjour();
 		roro.donner(marco);
+		
+//		SCENARIO RONIN VS YAKUZA (RONIN GAGNE)
+		
+		roro.provoquer(yaku);
+		
+//		SCENARIO RONIN VS YAKUZA (YAKZA GANGE)
+//		Changer la valeur de reputation dans la classe Yakuza
+		
 	}
 	
 }

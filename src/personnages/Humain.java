@@ -50,5 +50,4 @@ public class Humain {
 		return gain;
 	}
 	
-	
 }
