@@ -8,6 +8,7 @@ public class Yakuza extends Humain{
 	
 	public Yakuza(String nom, String boissonFavorite, int argent, String clan) {
 		super(nom,boissonFavorite,argent);
+		this.clan = clan;
 	}
 	
 	public int getReputation() {
@@ -36,6 +37,11 @@ public class Yakuza extends Humain{
 		gagnerArgent(gain);
 		reputation += 1;
 		return argent;
+	}
+	
+	public void direBonjour() {
+		super.direBonjour();
+		parler("Mon clan est celui de " + clan);
 	}
 	
 }
