@@ -24,7 +24,7 @@ public class HistoireTP4 {
 		prof.acheter("un kimono", 50);
 		
 //		SCENARIO DE COMMERCANT
-		Commercant marco = new Commercant("Marco","thé",20);
+		Commercant marco = new Commercant("Marco",20);
 		
 		marco.direBonjour();
 		
@@ -34,7 +34,7 @@ public class HistoireTP4 {
 		marco.boire();
 		
 //		SCENARIO DE YAKUZA
-		Yakuza yaku = new Yakuza("Yaku le noir","whisky",30);
+		Yakuza yaku = new Yakuza("Yaku Le Noir", "whisky", 30, "Warsong");
 		yaku.clan = "Warsong";
 		
 		yaku.direBonjour();
